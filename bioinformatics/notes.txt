@@ -1,0 +1,60 @@
+Step 1 · A Journey of a Thousand Miles... · Stepik
+The place when replication begins is called replication origin (ori). Important to locate them. 
+Viral vectors: can penetrate cell walls. 
+Gene therapy: inject patient with gene so that it replicates, creates necessary protein, and cures. Knowing location of ori is important. 
+
+
+Locating ori can be done using computational method. 
+Experimental method: remove certain genomes at and see which removal causes replication to stop. 
+
+Ori: usually few hundred nucleotides long. 
+
+DnaA binds to a short segment within or known as DnaA box. -> Tells to start binding there. 
+Often times it is a very frequent sequence. 
+
+Naturally leads to the necessity to count the number of a certain sequence appearing. 
+K-mer: A substring of length k. 
+
+Quick python tip for finding the maximum frequency in a dictionary. 
+M = max(freq.values())
+
+9 mers are often used because DnaA boxes are usually 9 nucleotides long. 
+
+Nucleotides A and T are complements of each other. C and G are complements too. 
+
+Often times read in the opposite direction. (5’ and 3’)
+Pretty much calculate the opposite and then reverse it. 
+
+Top down programming: separate each step at a time. 
+Probably opposite: do them parallel (place the index is the length-i-1 index or whatever). 
+
+Some 9-mers are in reverse order: super rare so like 99% sure it is the DnaA box. 
+
+The clump finding problem: Find clumps: where the k-mer apears at least t times within the length l. 
+
+So basically there were different theories on how DNA replicated. 
+Meselson-Stahl experiment: removed the conservative side. 
+
+Some basic genetic structure I need to understand here: Step 1 · Detour: Directionality of DNA Strands · Stepik
+
+Week 2 goes into detail on how replicates. 
+Kind of like a pulling a zipper down. 
+Replication doesn't wait until it finishes. 
+
+So DNA polymerases can only copy DNA in one direction (5' to 3'). 
+
+One famous contest by ITMO university but more of a research field. 
+
+https://www.youtube.com/watch?v=0Ha9nppnwOc
+https://www.youtube.com/watch?v=L36jC7Hncy0
+https://www.youtube.com/watch?v=9kp9wiYMQUU
+
+Basically replication is assymetrical. 
+Bio is confusing. Talks something about Okazaki fragments. 
+
+DNA ligase sews up the Okazaki fragments. 
+
+Single staranded DNA has much higher mutation rate than double stranded??
+What really are reverse and forward haf strands??
+
+
